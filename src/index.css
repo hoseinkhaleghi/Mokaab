@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Shabnam;
+  src: url('./assets/fonts/Shabnam.eot');
+  src: url('./assets/fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Shabnam.woff2') format('woff2'),
+    url('./assets/fonts/Shabnam.woff') format('woff'),
+    url('./assets/fonts/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('./assets/fonts/Shabnam-Bold.eot');
+  src: url('./assets/fonts/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Shabnam-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Shabnam-Bold.woff') format('woff'),
+    url('./assets/fonts/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('./assets/fonts/Shabnam-Thin.eot');
+  src: url('./assets/fonts/Shabnam-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Shabnam-Thin.woff2') format('woff2'),
+    url('./assets/fonts/Shabnam-Thin.woff') format('woff'),
+    url('./assets/fonts/Shabnam-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('./assets/fonts/Shabnam-Light.eot');
+  src: url('./assets/fonts/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Shabnam-Light.woff2') format('woff2'),
+    url('./assets/fonts/Shabnam-Light.woff') format('woff'),
+    url('./assets/fonts/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('./assets/fonts/Shabnam-Medium.eot');
+  src: url('./assets/fonts/Shabnam-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Shabnam-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Shabnam-Medium.woff') format('woff'),
+    url('./assets/fonts/Shabnam-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Shabnam;
+}
+
+body {
+  direction: rtl
+}
+
+.dashed-border {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23989898FF' stroke-width='2' stroke-dasharray='5%2c 12' stroke-dashoffset='48' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-radius: 20px;
+}
